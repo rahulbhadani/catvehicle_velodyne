@@ -1,0 +1,9 @@
+<!-- -*- mode: XML -*- -->
+<!-- run roscore in a nodelet manager to serve as the master
+
+     $Id$
+  -->
+
+<launch>
+  <node name="talker" pkg="rospy_tutorials" type="talker" />
+</launch>
